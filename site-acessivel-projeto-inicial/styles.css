@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #850505;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #000000;
+}
+
+
+section {
+    padding-bottom: 5rem;
+}
+
+
+.nav-link {
+    color: #CB6D43;
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCVlrRkgklu2F4SwLD9TA8Ez3DWjlYpqpEw&s');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
+    height: 3em;
+    /* Convertido para em */
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('https://images.tcdn.com.br/img/img_prod/1098101/guitarra_michael_strato_gm237n_mba_metalic_black_all_toda_preta_regulada_qualidade_mtech_163_1_a4eb57a4164d1ed2c5b6af96378aad71.jpg') top right no-repeat,
+        url(' https://blog.documentodoestudante.com.br/blog/wp-content/uploads/2024/07/1721416448669abb0038e18_1721416448_3x2_md.jpg') bottom left no-repeat;
+    background-size: 180px 180px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
+}
+
+#galeria {
+    background-color: #FAF4F4;
+
+}
+
+.fundo-galeria {
+    background: url('https://images.tcdn.com.br/img/img_prod/640308/guitarra_rockwave_rw50_rd_30993_2_2cbd38dc9dbb7f99efc89ba22be4dadb.jpg') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('https://images.tcdn.com.br/img/img_prod/1098101/guitarra_michael_strato_gm237n_mba_metalic_black_all_toda_preta_regulada_qualidade_mtech_163_1_a4eb57a4164d1ed2c5b6af96378aad71.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #fdfdfd;
+    border: none;
+    font-weight: bold;
+}
+
+/* chama classe do bootstrap para modificar a cor */
+.form-control {
+    background-color: #F1EDEF;
+}
